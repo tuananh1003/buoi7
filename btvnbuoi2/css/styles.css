@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blog-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.post-detail {
+  list-style-type: none;
+}
+
+.blog h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.blog .lead-text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.more {
+  display: inline-block;
+  padding: 10px;
+  border: 1px red solid;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.more a {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */

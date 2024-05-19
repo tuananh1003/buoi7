@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .container__h1 {
+  color: aqua;
+}
+.container button {
+  background-color: red;
+}
+.container button {
+  background-color: aqua;
+}
+
+button {
+  color: aquamarine;
+}
+
+/*# sourceMappingURL=styles.css.map */

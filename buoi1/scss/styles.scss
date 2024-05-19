@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$primary-color:red;
+.container{
+    $color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container__h1{
+        color: $color;
+    }
+    button{
+        background-color: $primary-color;
+    }
+    button{
+        background-color: $color;
+    }
+}
+//bien local
+button{
+    color: aquamarine;
+}

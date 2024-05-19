@@ -1,0 +1,59 @@
+@import 'base/reset';
+@import 'base/mixin';
+//extend (.)
+//placeholder (%)
+%body_p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    @include center();
+    .body__first{
+        @extend %body_p;
+        color: red;
+    }
+    .body__second{
+        @extend %body_p;
+        color: aqua
+    }
+    .body__third{
+        @extend %body_p;
+        color: yellowgreen;
+    }
+}
+%body__button{
+    padding: 10px;
+    border: 1px rgb(149, 0, 255) solid ;
+    border-radius:10px ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+.button{
+    @include center();
+    .button__1{
+        @extend %body__button;
+        background-color: rgb(249, 120, 97);
+    }
+    .button__2{
+        @extend %body__button;
+        background-color: rgb(114, 252, 158);
+    }
+}
+//mixin ko tham so
+.container-box{
+    @include center();
+    background-color: aqua;
+    height: 500px;
+    position: relative;
+}
+.box{
+    @include size(200px,200px);
+    @include position('top-left');
+    background-color: rgb(255, 103, 227);
+    position: absolute;
+}
+.box2{
+    @include size(250px,250px );
+    background-color: goldenrod;
+}

@@ -1,0 +1,19 @@
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin margin{
+    text-align: center;
+    margin-top: 30px;
+}
+@mixin button{
+    display:inline-block;
+    padding: 10px;
+    border: 1px red solid;
+    border-radius: 5px;
+    background-color: aqua;
+}
+@mixin ul{
+    list-style-type: none;
+}

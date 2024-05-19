@@ -1,0 +1,25 @@
+@import 'base/reset.scss';
+@import 'base/mixin.scss';
+.blog-list{
+    @include center();
+    @include ul;
+    margin-top: 30px;
+}
+.post-detail{
+    @include ul;
+}
+.blog{
+    h2{
+        @include margin;
+    }
+    .lead-text{
+        @include margin;
+    }
+}
+.more{
+    @include button;
+}
+.more a{
+    text-decoration: none;
+    color: black;
+}
